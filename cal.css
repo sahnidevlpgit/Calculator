@@ -1,0 +1,41 @@
+.main {
+    width: 300px;
+    margin: 100px auto;
+    padding: 5px;
+    border: 5px groove rgb(137, 217, 248);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 10px black;
+  }
+  h2 {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  table {
+    width: 100%;
+  }
+  
+  button {
+    width: 100%;
+    height: 60px;
+    border: 2px groove rgb(137, 217, 248);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 1s ease;
+  }
+  button:hover {
+    /* background-color: rgb(223, 147, 147); */
+    background-color: aquamarine;
+    color: white;
+  }
+  input[type="text"] {
+    height: 70px;
+    width: 90%;
+    border: 3px groove rgb(137, 217, 248);
+    margin-left: 10px;
+    color: grey;
+    font-size: 3.5rem;
+    text-align: right;
+    box-shadow: 8px 8px 20px 3px inset;
+  }
